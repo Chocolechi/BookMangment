@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BooksManagementAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BooksManagementAPI.Controllers.BooksController.GetBooks">
+            <summary>
+            To get all Books
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BooksManagementAPI.Controllers.BooksController.GetBook(System.Int32)">
+            <summary>
+            to get a book by its category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BooksManagementAPI.Controllers.BooksController.CreateBook(BooksManagementAPI.Models.Dtos.BookDto)">
+            <summary>
+            to create a new book / add a new book to the list of books
+            </summary>
+            <param name="bookDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BooksManagementAPI.Controllers.BooksController.UpdateBook(System.Int32,BooksManagementAPI.Models.Dtos.BookDto)">
+            <summary>
+            to update a book
+            </summary>
+            <param name="Id"></param>
+            <param name="bookDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BooksManagementAPI.Controllers.BooksController.DeleteBook(System.Int32)">
+            <summary>
+            to delete a book / remove a book from the book's list
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
